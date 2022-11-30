@@ -1,0 +1,22 @@
+.single-pokemon{
+    .col{
+        display: flex;
+    }
+    .pokemon-details{
+
+    }
+    button{
+        font-size: larger;
+        border: none;
+        border-radius: 10px;
+        padding: 5px;
+        width: 150px;
+       
+    }
+}
+.hover{
+    &:hover{
+        transform: scale(1.1);
+        transition: all 1s;
+    }
+}
